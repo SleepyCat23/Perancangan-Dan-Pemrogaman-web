@@ -1,11 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <title>Latihan</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nama Anda — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>hello world</h1>
- 
+
+  <!-- ===== HEADER / NAVIGASI ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">ezekiel</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#projects">Proyek</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <h1>Halo, saya <span>ezekiel</span></h1>
+      <p>i code</p>
+    </div>
+  </section>
+
+  <!-- ===== TENTANG ===== -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>Tentang Saya</h2>
+      <p>
+        mahasiswa informatika
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== PROYEK ===== -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Proyek</h2>
+      <div class="project-grid">
+
+        <article class="project-card">
+          <h3>Earth Facts — Latihan </h3>
+          <p>
+            Replika halaman demo "Earth Facts"
+            yang dikerjakan sebagai latihan.
+          </p>
+          <!-- Opsi 2: sub-folder di dalam repo Portfolio ini -->
+          <a class="project-link" href="projects/earth-facts-demo/index.html" target="_blank" rel="noopener">
+            Lihat Demo &rarr;
+          </a>
+        </article>
+
+        <article class="project-card">
+          <h3>Proyek Berikutnya</h3>
+          <p>Placeholder untuk proyek selanjutnya.</p>
+          <a class="project-link" href="#">Lihat Demo &rarr;</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KONTAK ===== -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Kontak</h2>
+      <p>Email: ezekielamadeus23@email.com</p>
+      <p>
+        <a href="https://github.com/SleepyCat23" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; hi</p>
+    </div>
+  </footer>
+
 </body>
 </html>
